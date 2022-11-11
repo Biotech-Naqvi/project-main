@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.novaknutrition.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/FirstToSuggest"
+            app:destination="@id/suggestFragment" />
+        <action
+            android:id="@+id/FirstToSelect"
+            app:destination="@id/selectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/suggestFragment"
+        android:name="com.example.novaknutrition.SuggestFragment"
+        android:label="fragment_suggest"
+        tools:layout="@layout/fragment_suggest" >
+        <action
+            android:id="@+id/SuggestToFirst"
+            app:destination="@id/firstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectFragment"
+        android:name="com.example.novaknutrition.SelectFragment"
+        android:label="fragment_select"
+        tools:layout="@layout/fragment_select" >
+        <action
+            android:id="@+id/SelectToFirst"
+            app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/SelectToDetails"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.novaknutrition.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/DetailsToSelect"
+            app:destination="@id/selectFragment" />
+        <argument
+            android:name="food"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

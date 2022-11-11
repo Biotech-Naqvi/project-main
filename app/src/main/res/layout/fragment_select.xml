@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:id="@+id/SelectHome"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:text="Back To Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="542dp"
+        app:layout_constraintBottom_toTopOf="@+id/SelectHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Milk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 Percent Fat Milk" />
+
+            <Button
+                android:id="@+id/AlmondMilk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Almond Milk" />
+
+            <Button
+                android:id="@+id/AsianSlaw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asian Slaw" />
+
+            <Button
+                android:id="@+id/BriocheBun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brioche BUn" />
+
+            <Button
+                android:id="@+id/ChesseBurger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CheeseBurger" />
+
+            <Button
+                android:id="@+id/HardEgg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hard Boiled Egg" />
+
+            <Button
+                android:id="@+id/HawaiianRoles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hawaiian Rolls" />
+
+            <Button
+                android:id="@+id/HoneyAppl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Honeycrisp Apple" />
+
+            <Button
+                android:id="@+id/Horchata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horchata" />
+
+            <Button
+                android:id="@+id/HotDog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hot Dog" />
+
+            <Button
+                android:id="@+id/MeatRavioli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meat Ravioli" />
+
+            <Button
+                android:id="@+id/OrangeJuice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orange Juice" />
+
+            <Button
+                android:id="@+id/OriginalLays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lays Original" />
+
+            <Button
+                android:id="@+id/PeanutButter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peanut Butter" />
+
+            <Button
+                android:id="@+id/PizzaSlice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pizza Slice" />
+
+            <Button
+                android:id="@+id/PotatoFries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potato Fries" />
+
+            <Button
+                android:id="@+id/RawBroccoli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raw Broccoli" />
+
+            <Button
+                android:id="@+id/SeafoodPaella"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seafood Paella" />
+
+            <Button
+                android:id="@+id/SourdoughBread"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sourdough Bread" />
+
+            <Button
+                android:id="@+id/Spaghetti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spaghetti" />
+
+            <Button
+                android:id="@+id/ThaiGreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thai Green Curry" />
+
+            <Button
+                android:id="@+id/TortillaChip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salted Tortilla Chips" />
+
+            <Button
+                android:id="@+id/WhiteCheddar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="White Cheddar" />
+
+            <Button
+                android:id="@+id/WhiteRice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="White Rice" />
+
+            <Button
+                android:id="@+id/WholeMilk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Whole Milk" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
